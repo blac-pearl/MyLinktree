@@ -1,4 +1,5 @@
-import Linktree from "./Linktree"
+import Linktree from "./Linktree";
+import Contact from "./Contact"
 
 function App() {
   return (
