@@ -16,7 +16,7 @@ const Links = () => {
         <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer" id="book__design" className="btn-link">
           <span id="links">Best Design Books Available on Zuri for FREE</span>
         </a>
-        <a href="./contact" target="_blank" rel="noreferrer" id="contact" className="btn-link">
+        <a href="./Contact" target="_blank" rel="noreferrer" id="contact" className="btn-link">
           <span id="links">Contact Me</span>
         </a>
         <div id="link-sub">
