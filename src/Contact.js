@@ -1,3 +1,5 @@
+import './contact.css'
+
 const Contact = () => {
     return (
         <>
@@ -42,9 +44,9 @@ const Contact = () => {
         </div>
         <div id="foot">
         <div id="foot-div">
-          <img src="zuri.l.png" alt="" id="foot-img-1"/>
-          <span id="footer-span">HNG Internship 9 Frontend Task</span>
-          <img src="ingress.i.png" alt="" id="foot-img-2"/>
+          <img src="zuri.l.png" alt="" id="footer-img-1"/>
+          <span id="foot-span">HNG Internship 9 Frontend Task</span>
+          <img src="ingress.i.png" alt="" id="footer-img-2"/>
         </div>
       </div>
         </>

@@ -3,7 +3,7 @@ import { BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import Contact from "./Contact"
+import Contact from "./Contact";
 
 const App = () => {
   return (
