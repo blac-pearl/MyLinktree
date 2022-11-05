@@ -1,5 +1,8 @@
 import Linktree from "./Linktree";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import Contact from "./Contact"
 
 const App = () => {

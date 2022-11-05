@@ -1,7 +1,7 @@
 const Profile = () => {
     return (
         <div id="profile-main">
-            <button>
+            <button className="profile-btn">
             <img src="Icon.png" alt="" id="share-icon" />
             <img src="more-default.png" alt="" id="more-icon" />
             </button>
