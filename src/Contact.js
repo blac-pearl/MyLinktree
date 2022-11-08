@@ -3,7 +3,6 @@ import './contact.css'
 const Contact = () => {
     return (
         <>
-        <div className="contact">
         <div className="con-page">
             <div className="con-container">
                 <div className="con-content">
@@ -39,7 +38,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         </div>
         <div id="foot">
