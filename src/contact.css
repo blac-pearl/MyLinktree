@@ -7,9 +7,6 @@
     align-items: center;
     padding: 64px 0px 96px;
     gap: 64px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
     max-width: 1440px;
     max-height: 960px;
 }
@@ -20,9 +17,6 @@ justify-content: center;
 align-items: center;
 padding: 0px 32px;
 gap: 64px;
-position: absolute;
-top: 64px;
-left: 80px;
 width: 80%;
 height: 800px;
 flex: none;
@@ -36,9 +30,6 @@ flex-grow: 1;
     width: 720px;
     height: 616px;
     gap: 48px;
-    position: absolute;
-    top: 92px;
-    left: 248px;
     flex-grow: 0;
 }
 .con-HS {
@@ -317,9 +308,6 @@ button {
 #foot {
     width: 80%;
     margin: 0 auto;
-    position: absolute;
-    top: 950px;
-    left: 180px;
 }
 #foot-div {
     display: flex;
@@ -341,13 +329,12 @@ button {
     color: rgb(102, 112, 133);
 }
 @media (max-width: 500px) {
-    
+    #foot {
+        margin-top: 260px;
+    }
     #foot-div {
         flex-direction: column;
         align-items: flex-start;
-        position: absolute;
-        top: 70px;
-        left: 150px;
         width: 90%;
     }
     .con-page {

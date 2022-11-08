@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Links = () => {
     return (
       <div id="link-main">
@@ -16,9 +17,9 @@ const Links = () => {
         <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer" id="book__design" className="btn-link">
           <span id="links">Best Design Books Available on Zuri for FREE</span>
         </a>
-        <a href="./Contact" target="_blank" rel="noreferrer" id="contact" className="btn-link">
+        <Link to="/Contact" target="_blank" rel="noreferrer" id="contact" className="btn-link">
           <span id="links">Contact Me</span>
-        </a>
+        </Link>
         <div id="link-sub">
           <img src="slack.png" alt="slack-logo" />
           <img src="git.png" alt="git-logo" />
